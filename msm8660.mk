@@ -127,3 +127,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/htc/msm8660-common/msm8660-common-vendor.mk)
+$(call inherit-product-if-exists, hardware/qcom/msm8660/msm8660.mk)
